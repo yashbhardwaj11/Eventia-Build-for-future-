@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="20dp"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="20dp"
+        android:id="@+id/card"
+        >
+
+        <ImageView
+            android:id="@+id/eventImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/placeholder"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+            android:layout_height="90dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="150dp"
+            android:backgroundTint="#392F51"
+            android:layout_marginHorizontal="8dp"
+            app:cardCornerRadius="20dp"
+            >
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:id="@+id/eventHeading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Event Heading"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"
+                    />
+                <ImageView
+                    android:id="@+id/calenderIv"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    app:layout_constraintTop_toBottomOf="@id/eventHeading"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/ic_calender"
+                    />
+                <TextView
+                    android:id="@+id/eventDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="26 Mar, 2021"
+                    app:layout_constraintStart_toEndOf="@id/calenderIv"
+                    app:layout_constraintTop_toTopOf="@id/calenderIv"
+                    app:layout_constraintBottom_toBottomOf="@id/calenderIv"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:layout_marginStart="5dp"
+                    />
+
+                <Button
+                    android:id="@+id/eventBt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/custom_button_item"
+                    android:text="Book"
+                    android:textAllCaps="false"
+                    />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

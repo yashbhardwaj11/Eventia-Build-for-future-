@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/eventDescriptionFragment"
+        android:name="com.devinfusion.eventiafinal.fragment.EventDescriptionFragment"
+        android:label="fragment_event_description"
+        tools:layout="@layout/fragment_event_description" >
+        <action
+            android:id="@+id/action_eventDescriptionFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_eventDescriptionFragment_to_createEventFragment"
+            app:destination="@id/createEventFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.devinfusion.eventiafinal.fragment.HomeFragment"
+        android:label="fragment_homwe"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_eventDescriptionFragment"
+            app:destination="@id/eventDescriptionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.devinfusion.eventiafinal.fragment.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_qrGeneratorFragment"
+            app:destination="@id/qrGeneratorFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_createEventFragment"
+            app:destination="@id/createEventFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_eventDescriptionFragment"
+            app:destination="@id/eventDescriptionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/qrGeneratorFragment"
+        android:name="com.devinfusion.eventiafinal.fragment.QrGeneratorFragment"
+        android:label="fragment_qr_generator"
+        tools:layout="@layout/fragment_qr_generator" >
+        <action
+            android:id="@+id/action_qrGeneratorFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createEventFragment"
+        android:name="com.devinfusion.eventiafinal.fragment.CreateEventFragment"
+        android:label="fragment_create_event"
+        tools:layout="@layout/fragment_create_event" />
+    <fragment
+        android:id="@+id/adminFragment"
+        android:name="com.devinfusion.eventiafinal.fragment.AdminFragment"
+        android:label="fragment_admin"
+        tools:layout="@layout/fragment_admin" >
+        <action
+            android:id="@+id/action_adminFragment_to_createEventFragment"
+            app:destination="@id/createEventFragment" />
+        <action
+            android:id="@+id/action_adminFragment_to_eventsInReviewFragment"
+            app:destination="@id/eventsInReviewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/eventsInReviewFragment"
+        android:name="com.devinfusion.eventiafinal.fragment.EventsInReviewFragment"
+        android:label="fragment_events_in_review"
+        tools:layout="@layout/fragment_events_in_review" >
+        <action
+            android:id="@+id/action_eventsInReviewFragment_to_createEventFragment"
+            app:destination="@id/createEventFragment" />
+        <action
+            android:id="@+id/action_eventsInReviewFragment_to_eventDescriptionFragment"
+            app:destination="@id/eventDescriptionFragment" />
+    </fragment>
+</navigation>

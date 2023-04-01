@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "171994764688",
+    "firebase_url": "https://allprojects-5e8eb-default-rtdb.firebaseio.com",
+    "project_id": "allprojects-5e8eb",
+    "storage_bucket": "allprojects-5e8eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171994764688:android:74674df89bd57043bfcf15",
+        "android_client_info": {
+          "package_name": "com.devinfusion.eventiafinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171994764688-92iqfukd1492k8g4e4o1u57vr1bg3quo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9pXMDTqKw41qRjQ-jLGNxSCoEvgeJn0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171994764688-92iqfukd1492k8g4e4o1u57vr1bg3quo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171994764688:android:11f98e7df6b4758cbfcf15",
+        "android_client_info": {
+          "package_name": "com.example.eventia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171994764688-84c4m9vmhgva2o3hqcunhmljorqil4q7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eventia",
+            "certificate_hash": "09c3a43bc7a109f2a32323883b6b0a774de149e8"
+          }
+        },
+        {
+          "client_id": "171994764688-92iqfukd1492k8g4e4o1u57vr1bg3quo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9pXMDTqKw41qRjQ-jLGNxSCoEvgeJn0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171994764688-92iqfukd1492k8g4e4o1u57vr1bg3quo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171994764688:android:4876a93e9493b54dbfcf15",
+        "android_client_info": {
+          "package_name": "com.example.eventiacaptain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171994764688-3c3iqt6ul00i1mv7tn2sp2p8urvlfp96.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eventiacaptain",
+            "certificate_hash": "09c3a43bc7a109f2a32323883b6b0a774de149e8"
+          }
+        },
+        {
+          "client_id": "171994764688-92iqfukd1492k8g4e4o1u57vr1bg3quo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9pXMDTqKw41qRjQ-jLGNxSCoEvgeJn0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171994764688-92iqfukd1492k8g4e4o1u57vr1bg3quo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

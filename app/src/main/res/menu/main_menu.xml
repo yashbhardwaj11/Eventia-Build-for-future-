@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@id/homeFragment"
+        android:visible="true"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home"/>
+
+    <item android:id="@id/adminFragment"
+        android:visible="true"
+        android:title="Events"
+        android:icon="@drawable/ic_add"
+        />
+
+    <item android:id="@id/profileFragment"
+        android:visible="true"
+        android:title="@string/profile_menu"
+        android:icon="@drawable/ic_profile"
+        />
+
+<!--    <item android:id="@id/eventFragment"-->
+<!--        android:visible="true"-->
+<!--        android:title="Upload Event"-->
+<!--        android:icon="@drawable/baseline_image_24"-->
+<!--        />-->
+
+</menu>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Eventia</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="profile_menu">Profile</string>
+    <string name="loginpng">loginpng</string>
+
+    <string name="user_name">Full Name</string>
+    <string name="developer_name">Yash Bhardwaj</string>
+    <string name="user_email">Email Address</string>
+    <string name="developer_email">example@gmail.com</string>
+    <string name="user_phone">Phone Number</string>
+    <string name="developer_number">9999 XXX XXX</string>
+    <string name="developer_college">Guru Gobind Singh Indraprastha University</string>
+    <string name="user_college">College Name</string>
+    <string name="developer_course">B.Tech</string>
+    <string name="user_course">Course</string>
+    <string name="user_password">Password</string>
+    <string name="developer_password">Password</string>
+    <string name="attending">Attending</string>
+    <string name="numberOfPeople">320</string>
+    <string name="register_now">Register Now</string>
+    <string name="startDate">26 jan 1947</string>
+    <string name="endDate">23 feb 2029</string>
+    <string name="eventposter">eventPoster</string>
+    <string name="nextIV">nextPng</string>
+
+
+    <string name="showing_code_in_fragment">Showing Code in Fragment</string>
+    <string name="scan_qr_code">SCAN QR CODE</string>
+    <string name="empty">---</string>
+    <string name="site_name">Site Name</string>
+    <string name="scan_a_code">Scan a QR Code</string>
+    <string name="result_not_found">Result Not Found</string>
+    <string name="show_scanner_from_fragment">Show Scanner From Fragment</string>
+    <string name="eventia_captain">Welcome to Eventia Captain</string>
+    <string name="myeventsnothingtt">There is no events created</string>
+
+</resources>
